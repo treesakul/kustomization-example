@@ -1,5 +1,5 @@
 #  Kustomization chart example
-A very simnple example of a Kustomization chart that contains only a Deployment resource with NginX as an image.
+A very simnple example of a Kustomization chart that contains only a Deployment resource with NginX as an image. We uses Flux to over the replica of the deployment from `1` to `3` instead.
 ## Components
 There are two main components within the repository as follow:
 ### Base Resource
